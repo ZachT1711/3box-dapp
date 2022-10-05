@@ -9,11 +9,11 @@
     "3box-chatbox-react": "^0.1.9",
     "3id-resolver": "0.0.6",
     "@babel/polyfill": "^7.7.0",
-    "@microlink/mql": "^0.5.10",
-    "@portis/web3": "^2.0.0-beta.54",
-    "@walletconnect/web3-provider": "^1.0.0-beta.47",
+    "@microlink/mql": "^0.7.15",
+    "@portis/web3": "^3.0.0",
+    "@walletconnect/web3-provider": "^1.0.0",
     "abi-decoder": "^2.0.1",
-    "authereum": "0.0.4-beta.97",
+    "authereum": "0.1.0",
     "core-js": "^3.4.8",
     "detect-browser": "^4.6.0",
     "did-resolver": "0.0.7",
@@ -23,7 +23,7 @@
     "eth-contract-metadata": "^1.11.0",
     "ethereum-blockies-base64": "^1.0.2",
     "ethereumjs-util": "^6.0.0",
-    "ethers": "^4.0.40",
+    "ethers": "^4.0.49",
     "fortmatic": "^1.1.3",
     "history": "^4.7.2",
     "idb-readable-stream": "0.0.4",
@@ -31,8 +31,8 @@
     "level-js": "^5.0.1",
     "lodash.clonedeep": "^4.5.0",
     "lodash.debounce": "^4.0.8",
-    "node-sass": "^4.13.1",
-    "optimize-css-assets-webpack-plugin": "^5.0.3",
+    "node-sass": "^7.0.2",
+    "optimize-css-assets-webpack-plugin": "^5.0.5",
     "profile-hover": "^1.1.2",
     "prop-types": "^15.6.1",
     "pull-ws": "^3.3.2",
@@ -41,7 +41,7 @@
     "react-addons-css-transition-group": "^15.6.2",
     "react-dom": "^16.12.0",
     "react-helmet": "^5.2.1",
-    "react-highlight": "^0.12.0",
+    "react-highlight": "^0.13.0",
     "react-inlinesvg": "^1.1.7",
     "react-linkify": "^1.0.0-alpha",
     "react-mailchimp-subscribe": "^2.0.2",
@@ -54,11 +54,12 @@
     "scrypt-shim": "github:web3-js/scrypt-shim",
     "source-map-explorer": "^2.1.2",
     "squarelink": "^1.1.4",
-    "web3": "^1.2.4",
-    "web3-eth-personal": "^1.2.4",
+    "web3": "^1.7.5",
+    "web3-eth-personal": "^1.3.6",
     "web3connect": "^1.0.0-beta.32",
     "webpack": "^4.41.2",
-    "websocket": "^1.0.31"
+    "websocket": "^1.0.31",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "acorn-dynamic-import": "^3.0.0",
@@ -103,9 +104,12 @@
     "invalidate": "node_modules/.bin/aws-cloudfront-invalidate",
     "deploy-develop": "npm run deploy-to-s3 3box-dapp-develop.3box.io && npm run invalidate E17Q4403A4B4C8",
     "deploy-master": "npm run deploy-to-s3 3box-dapp-master.3box.io && npm run invalidate ET1S25F7JOQM6",
-    "deploy-test": "GENERATE_SOURCEMAP=false npm run deploy-to-s3 3box-dapp-test.3box.io && npm run invalidate E256JNRDZ1B3QM"
+    "deploy-test": "GENERATE_SOURCEMAP=false npm run deploy-to-s3 3box-dapp-test.3box.io && npm run invalidate E256JNRDZ1B3QM",
+    "prepare": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "browserslist": [
     "defaults"
-  ]
+  ],
+  "snyk": true
 }
