@@ -1,0 +1,466 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - 3box-chatbox-react > 3box > ipfs > ipfs-http-client > async > lodash:
+        patched: '2023-11-29T01:24:04.428Z'
+        id: SNYK-JS-LODASH-567746
+        path: 3box-chatbox-react > 3box > ipfs > ipfs-http-client > async > lodash
+    - profile-hover > 3box > ipfs > ipfs-http-client > async > lodash:
+        patched: '2023-11-29T01:24:04.428Z'
+        id: SNYK-JS-LODASH-567746
+        path: profile-hover > 3box > ipfs > ipfs-http-client > async > lodash
+    - 3box-chatbox-react > 3box > ipfs > libp2p > async > lodash:
+        patched: '2023-11-29T01:24:04.428Z'
+        id: SNYK-JS-LODASH-567746
+        path: 3box-chatbox-react > 3box > ipfs > libp2p > async > lodash
+    - profile-hover > 3box > ipfs > libp2p > async > lodash:
+        patched: '2023-11-29T01:24:04.428Z'
+        id: SNYK-JS-LODASH-567746
+        path: profile-hover > 3box > ipfs > libp2p > async > lodash
+    - 3box-chatbox-react > 3box > ipfs > libp2p-bootstrap > async > lodash:
+        patched: '2023-11-29T01:24:04.428Z'
+        id: SNYK-JS-LODASH-567746
+        path: 3box-chatbox-react > 3box > ipfs > libp2p-bootstrap > async > lodash
+    - profile-hover > 3box > ipfs > libp2p-bootstrap > async > lodash:
+        patched: '2023-11-29T01:24:04.428Z'
+        id: SNYK-JS-LODASH-567746
+        path: profile-hover > 3box > ipfs > libp2p-bootstrap > async > lodash
+    - 3box-chatbox-react > 3box > ipfs > libp2p-floodsub > async > lodash:
+        patched: '2023-11-29T01:24:04.428Z'
+        id: SNYK-JS-LODASH-567746
+        path: 3box-chatbox-react > 3box > ipfs > libp2p-floodsub > async > lodash
+    - profile-hover > 3box > ipfs > libp2p-floodsub > async > lodash:
+        patched: '2023-11-29T01:24:04.428Z'
+        id: SNYK-JS-LODASH-567746
+        path: profile-hover > 3box > ipfs > libp2p-floodsub > async > lodash
+    - 3box-chatbox-react > 3box > ipfs > libp2p-gossipsub > async > lodash:
+        patched: '2023-11-29T01:24:04.428Z'
+        id: SNYK-JS-LODASH-567746
+        path: 3box-chatbox-react > 3box > ipfs > libp2p-gossipsub > async > lodash
+    - profile-hover > 3box > ipfs > libp2p-gossipsub > async > lodash:
+        patched: '2023-11-29T01:24:04.428Z'
+        id: SNYK-JS-LODASH-567746
+        path: profile-hover > 3box > ipfs > libp2p-gossipsub > async > lodash
+    - 3box-chatbox-react > 3box > ipfs > libp2p-kad-dht > async > lodash:
+        patched: '2023-11-29T01:24:04.428Z'
+        id: SNYK-JS-LODASH-567746
+        path: 3box-chatbox-react > 3box > ipfs > libp2p-kad-dht > async > lodash
+    - profile-hover > 3box > ipfs > libp2p-kad-dht > async > lodash:
+        patched: '2023-11-29T01:24:04.428Z'
+        id: SNYK-JS-LODASH-567746
+        path: profile-hover > 3box > ipfs > libp2p-kad-dht > async > lodash
+    - 3box-chatbox-react > 3box > ipfs > libp2p-mdns > async > lodash:
+        patched: '2023-11-29T01:24:04.428Z'
+        id: SNYK-JS-LODASH-567746
+        path: 3box-chatbox-react > 3box > ipfs > libp2p-mdns > async > lodash
+    - profile-hover > 3box > ipfs > libp2p-mdns > async > lodash:
+        patched: '2023-11-29T01:24:04.428Z'
+        id: SNYK-JS-LODASH-567746
+        path: profile-hover > 3box > ipfs > libp2p-mdns > async > lodash
+    - 3box-chatbox-react > 3box > ipfs > libp2p-secio > async > lodash:
+        patched: '2023-11-29T01:24:04.428Z'
+        id: SNYK-JS-LODASH-567746
+        path: 3box-chatbox-react > 3box > ipfs > libp2p-secio > async > lodash
+    - profile-hover > 3box > ipfs > libp2p-secio > async > lodash:
+        patched: '2023-11-29T01:24:04.428Z'
+        id: SNYK-JS-LODASH-567746
+        path: profile-hover > 3box > ipfs > libp2p-secio > async > lodash
+    - 3box-chatbox-react > 3box > ipfs > libp2p-webrtc-star > async > lodash:
+        patched: '2023-11-29T01:24:04.428Z'
+        id: SNYK-JS-LODASH-567746
+        path: 3box-chatbox-react > 3box > ipfs > libp2p-webrtc-star > async > lodash
+    - profile-hover > 3box > ipfs > libp2p-webrtc-star > async > lodash:
+        patched: '2023-11-29T01:24:04.428Z'
+        id: SNYK-JS-LODASH-567746
+        path: profile-hover > 3box > ipfs > libp2p-webrtc-star > async > lodash
+    - 3box-chatbox-react > 3box > ipfs > libp2p-websocket-star-multi > async > lodash:
+        patched: '2023-11-29T01:24:04.428Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          3box-chatbox-react > 3box > ipfs > libp2p-websocket-star-multi > async
+          > lodash
+    - profile-hover > 3box > ipfs > libp2p-websocket-star-multi > async > lodash:
+        patched: '2023-11-29T01:24:04.428Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          profile-hover > 3box > ipfs > libp2p-websocket-star-multi > async >
+          lodash
+    - 3box-chatbox-react > 3box > ipfs-postmsg-proxy > ipld-dag-pb > async > lodash:
+        patched: '2023-11-29T01:24:04.428Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          3box-chatbox-react > 3box > ipfs-postmsg-proxy > ipld-dag-pb > async >
+          lodash
+    - profile-hover > 3box > ipfs-postmsg-proxy > ipld-dag-pb > async > lodash:
+        patched: '2023-11-29T01:24:04.428Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          profile-hover > 3box > ipfs-postmsg-proxy > ipld-dag-pb > async >
+          lodash
+    - squarelink > squarelink-provider-engine > eth-json-rpc-middleware > json-rpc-engine > async > lodash:
+        patched: '2023-11-29T01:24:04.428Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          squarelink > squarelink-provider-engine > eth-json-rpc-middleware >
+          json-rpc-engine > async > lodash
+    - squarelink > squarelink-provider-engine > eth-json-rpc-filters > json-rpc-engine > async > lodash:
+        patched: '2023-11-29T01:24:04.428Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          squarelink > squarelink-provider-engine > eth-json-rpc-filters >
+          json-rpc-engine > async > lodash
+    - 3box-chatbox-react > 3box > ipfs > peer-id > libp2p-crypto > async > lodash:
+        patched: '2023-11-29T01:24:04.428Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          3box-chatbox-react > 3box > ipfs > peer-id > libp2p-crypto > async >
+          lodash
+    - profile-hover > 3box > ipfs > peer-id > libp2p-crypto > async > lodash:
+        patched: '2023-11-29T01:24:04.428Z'
+        id: SNYK-JS-LODASH-567746
+        path: profile-hover > 3box > ipfs > peer-id > libp2p-crypto > async > lodash
+    - 3box-chatbox-react > 3box > ipfs > ipns > libp2p-crypto > async > lodash:
+        patched: '2023-11-29T01:24:04.428Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          3box-chatbox-react > 3box > ipfs > ipns > libp2p-crypto > async >
+          lodash
+    - profile-hover > 3box > ipfs > ipns > libp2p-crypto > async > lodash:
+        patched: '2023-11-29T01:24:04.428Z'
+        id: SNYK-JS-LODASH-567746
+        path: profile-hover > 3box > ipfs > ipns > libp2p-crypto > async > lodash
+    - 3box-chatbox-react > 3box > ipfs > libp2p > libp2p-crypto > async > lodash:
+        patched: '2023-11-29T01:24:04.428Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          3box-chatbox-react > 3box > ipfs > libp2p > libp2p-crypto > async >
+          lodash
+    - profile-hover > 3box > ipfs > libp2p > libp2p-crypto > async > lodash:
+        patched: '2023-11-29T01:24:04.428Z'
+        id: SNYK-JS-LODASH-567746
+        path: profile-hover > 3box > ipfs > libp2p > libp2p-crypto > async > lodash
+    - 3box-chatbox-react > 3box > ipfs > libp2p-kad-dht > libp2p-crypto > async > lodash:
+        patched: '2023-11-29T01:24:04.428Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          3box-chatbox-react > 3box > ipfs > libp2p-kad-dht > libp2p-crypto >
+          async > lodash
+    - profile-hover > 3box > ipfs > libp2p-kad-dht > libp2p-crypto > async > lodash:
+        patched: '2023-11-29T01:24:04.428Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          profile-hover > 3box > ipfs > libp2p-kad-dht > libp2p-crypto > async >
+          lodash
+    - 3box-chatbox-react > 3box > ipfs > libp2p-keychain > libp2p-crypto > async > lodash:
+        patched: '2023-11-29T01:24:04.428Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          3box-chatbox-react > 3box > ipfs > libp2p-keychain > libp2p-crypto >
+          async > lodash
+    - profile-hover > 3box > ipfs > libp2p-keychain > libp2p-crypto > async > lodash:
+        patched: '2023-11-29T01:24:04.428Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          profile-hover > 3box > ipfs > libp2p-keychain > libp2p-crypto > async
+          > lodash
+    - 3box-chatbox-react > 3box > ipfs > libp2p-secio > libp2p-crypto > async > lodash:
+        patched: '2023-11-29T01:24:04.428Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          3box-chatbox-react > 3box > ipfs > libp2p-secio > libp2p-crypto >
+          async > lodash
+    - profile-hover > 3box > ipfs > libp2p-secio > libp2p-crypto > async > lodash:
+        patched: '2023-11-29T01:24:04.428Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          profile-hover > 3box > ipfs > libp2p-secio > libp2p-crypto > async >
+          lodash
+    - 3box-chatbox-react > 3box > ipfs > peer-info > peer-id > async > lodash:
+        patched: '2023-11-29T01:24:04.428Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          3box-chatbox-react > 3box > ipfs > peer-info > peer-id > async >
+          lodash
+    - profile-hover > 3box > ipfs > peer-info > peer-id > async > lodash:
+        patched: '2023-11-29T01:24:04.428Z'
+        id: SNYK-JS-LODASH-567746
+        path: profile-hover > 3box > ipfs > peer-info > peer-id > async > lodash
+    - 3box-chatbox-react > 3box > ipfs > ipns > peer-id > async > lodash:
+        patched: '2023-11-29T01:24:04.428Z'
+        id: SNYK-JS-LODASH-567746
+        path: 3box-chatbox-react > 3box > ipfs > ipns > peer-id > async > lodash
+    - profile-hover > 3box > ipfs > ipns > peer-id > async > lodash:
+        patched: '2023-11-29T01:24:04.428Z'
+        id: SNYK-JS-LODASH-567746
+        path: profile-hover > 3box > ipfs > ipns > peer-id > async > lodash
+    - 3box-chatbox-react > 3box > ipfs > libp2p > peer-id > async > lodash:
+        patched: '2023-11-29T01:24:04.428Z'
+        id: SNYK-JS-LODASH-567746
+        path: 3box-chatbox-react > 3box > ipfs > libp2p > peer-id > async > lodash
+    - profile-hover > 3box > ipfs > libp2p > peer-id > async > lodash:
+        patched: '2023-11-29T01:24:04.428Z'
+        id: SNYK-JS-LODASH-567746
+        path: profile-hover > 3box > ipfs > libp2p > peer-id > async > lodash
+    - 3box-chatbox-react > 3box > ipfs > libp2p-bootstrap > peer-id > async > lodash:
+        patched: '2023-11-29T01:24:04.428Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          3box-chatbox-react > 3box > ipfs > libp2p-bootstrap > peer-id > async
+          > lodash
+    - profile-hover > 3box > ipfs > libp2p-bootstrap > peer-id > async > lodash:
+        patched: '2023-11-29T01:24:04.428Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          profile-hover > 3box > ipfs > libp2p-bootstrap > peer-id > async >
+          lodash
+    - 3box-chatbox-react > 3box > ipfs > libp2p-delegated-peer-routing > peer-id > async > lodash:
+        patched: '2023-11-29T01:24:04.428Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          3box-chatbox-react > 3box > ipfs > libp2p-delegated-peer-routing >
+          peer-id > async > lodash
+    - profile-hover > 3box > ipfs > libp2p-delegated-peer-routing > peer-id > async > lodash:
+        patched: '2023-11-29T01:24:04.428Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          profile-hover > 3box > ipfs > libp2p-delegated-peer-routing > peer-id
+          > async > lodash
+    - 3box-chatbox-react > 3box > ipfs > libp2p-gossipsub > peer-id > async > lodash:
+        patched: '2023-11-29T01:24:04.428Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          3box-chatbox-react > 3box > ipfs > libp2p-gossipsub > peer-id > async
+          > lodash
+    - profile-hover > 3box > ipfs > libp2p-gossipsub > peer-id > async > lodash:
+        patched: '2023-11-29T01:24:04.428Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          profile-hover > 3box > ipfs > libp2p-gossipsub > peer-id > async >
+          lodash
+    - 3box-chatbox-react > 3box > ipfs > libp2p-kad-dht > peer-id > async > lodash:
+        patched: '2023-11-29T01:24:04.428Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          3box-chatbox-react > 3box > ipfs > libp2p-kad-dht > peer-id > async >
+          lodash
+    - profile-hover > 3box > ipfs > libp2p-kad-dht > peer-id > async > lodash:
+        patched: '2023-11-29T01:24:04.428Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          profile-hover > 3box > ipfs > libp2p-kad-dht > peer-id > async >
+          lodash
+    - 3box-chatbox-react > 3box > ipfs > libp2p-mdns > peer-id > async > lodash:
+        patched: '2023-11-29T01:24:04.428Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          3box-chatbox-react > 3box > ipfs > libp2p-mdns > peer-id > async >
+          lodash
+    - profile-hover > 3box > ipfs > libp2p-mdns > peer-id > async > lodash:
+        patched: '2023-11-29T01:24:04.428Z'
+        id: SNYK-JS-LODASH-567746
+        path: profile-hover > 3box > ipfs > libp2p-mdns > peer-id > async > lodash
+    - 3box-chatbox-react > 3box > ipfs > libp2p-secio > peer-id > async > lodash:
+        patched: '2023-11-29T01:24:04.428Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          3box-chatbox-react > 3box > ipfs > libp2p-secio > peer-id > async >
+          lodash
+    - profile-hover > 3box > ipfs > libp2p-secio > peer-id > async > lodash:
+        patched: '2023-11-29T01:24:04.428Z'
+        id: SNYK-JS-LODASH-567746
+        path: profile-hover > 3box > ipfs > libp2p-secio > peer-id > async > lodash
+    - 3box-chatbox-react > 3box > ipfs > libp2p-webrtc-star > peer-id > async > lodash:
+        patched: '2023-11-29T01:24:04.428Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          3box-chatbox-react > 3box > ipfs > libp2p-webrtc-star > peer-id >
+          async > lodash
+    - profile-hover > 3box > ipfs > libp2p-webrtc-star > peer-id > async > lodash:
+        patched: '2023-11-29T01:24:04.428Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          profile-hover > 3box > ipfs > libp2p-webrtc-star > peer-id > async >
+          lodash
+    - 3box-chatbox-react > 3box > ipfs > libp2p > multistream-select > async > lodash:
+        patched: '2023-11-29T01:24:04.428Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          3box-chatbox-react > 3box > ipfs > libp2p > multistream-select > async
+          > lodash
+    - profile-hover > 3box > ipfs > libp2p > multistream-select > async > lodash:
+        patched: '2023-11-29T01:24:04.428Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          profile-hover > 3box > ipfs > libp2p > multistream-select > async >
+          lodash
+    - 3box-chatbox-react > 3box > ipfs > libp2p-delegated-content-routing > ipfs-http-client > async > lodash:
+        patched: '2023-11-29T01:24:04.428Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          3box-chatbox-react > 3box > ipfs > libp2p-delegated-content-routing >
+          ipfs-http-client > async > lodash
+    - profile-hover > 3box > ipfs > libp2p-delegated-content-routing > ipfs-http-client > async > lodash:
+        patched: '2023-11-29T01:24:04.428Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          profile-hover > 3box > ipfs > libp2p-delegated-content-routing >
+          ipfs-http-client > async > lodash
+    - 3box-chatbox-react > 3box > ipfs > libp2p-delegated-peer-routing > ipfs-http-client > async > lodash:
+        patched: '2023-11-29T01:24:04.428Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          3box-chatbox-react > 3box > ipfs > libp2p-delegated-peer-routing >
+          ipfs-http-client > async > lodash
+    - profile-hover > 3box > ipfs > libp2p-delegated-peer-routing > ipfs-http-client > async > lodash:
+        patched: '2023-11-29T01:24:04.428Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          profile-hover > 3box > ipfs > libp2p-delegated-peer-routing >
+          ipfs-http-client > async > lodash
+    - 3box-chatbox-react > 3box > ipfs > libp2p-floodsub > libp2p-pubsub > async > lodash:
+        patched: '2023-11-29T01:24:04.428Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          3box-chatbox-react > 3box > ipfs > libp2p-floodsub > libp2p-pubsub >
+          async > lodash
+    - profile-hover > 3box > ipfs > libp2p-floodsub > libp2p-pubsub > async > lodash:
+        patched: '2023-11-29T01:24:04.428Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          profile-hover > 3box > ipfs > libp2p-floodsub > libp2p-pubsub > async
+          > lodash
+    - 3box-chatbox-react > 3box > ipfs > libp2p-gossipsub > libp2p-pubsub > async > lodash:
+        patched: '2023-11-29T01:24:04.428Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          3box-chatbox-react > 3box > ipfs > libp2p-gossipsub > libp2p-pubsub >
+          async > lodash
+    - profile-hover > 3box > ipfs > libp2p-gossipsub > libp2p-pubsub > async > lodash:
+        patched: '2023-11-29T01:24:04.428Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          profile-hover > 3box > ipfs > libp2p-gossipsub > libp2p-pubsub > async
+          > lodash
+    - 3box-chatbox-react > 3box > ipfs > libp2p-kad-dht > libp2p-record > async > lodash:
+        patched: '2023-11-29T01:24:04.428Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          3box-chatbox-react > 3box > ipfs > libp2p-kad-dht > libp2p-record >
+          async > lodash
+    - profile-hover > 3box > ipfs > libp2p-kad-dht > libp2p-record > async > lodash:
+        patched: '2023-11-29T01:24:04.428Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          profile-hover > 3box > ipfs > libp2p-kad-dht > libp2p-record > async >
+          lodash
+    - squarelink > squarelink-provider-engine > eth-json-rpc-filters > eth-json-rpc-middleware > ethereumjs-block > async > lodash:
+        patched: '2023-11-29T01:24:04.428Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          squarelink > squarelink-provider-engine > eth-json-rpc-filters >
+          eth-json-rpc-middleware > ethereumjs-block > async > lodash
+    - squarelink > squarelink-provider-engine > eth-json-rpc-filters > eth-json-rpc-middleware > json-rpc-engine > async > lodash:
+        patched: '2023-11-29T01:24:04.428Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          squarelink > squarelink-provider-engine > eth-json-rpc-filters >
+          eth-json-rpc-middleware > json-rpc-engine > async > lodash
+    - 3box-chatbox-react > 3box > ipfs > libp2p-floodsub > libp2p-pubsub > libp2p-crypto > async > lodash:
+        patched: '2023-11-29T01:24:04.428Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          3box-chatbox-react > 3box > ipfs > libp2p-floodsub > libp2p-pubsub >
+          libp2p-crypto > async > lodash
+    - profile-hover > 3box > ipfs > libp2p-floodsub > libp2p-pubsub > libp2p-crypto > async > lodash:
+        patched: '2023-11-29T01:24:04.428Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          profile-hover > 3box > ipfs > libp2p-floodsub > libp2p-pubsub >
+          libp2p-crypto > async > lodash
+    - 3box-chatbox-react > 3box > ipfs > libp2p-gossipsub > libp2p-floodsub > libp2p-pubsub > sinon > @sinonjs/samsam > lodash:
+        patched: '2023-11-29T01:24:04.428Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          3box-chatbox-react > 3box > ipfs > libp2p-gossipsub > libp2p-floodsub
+          > libp2p-pubsub > sinon > @sinonjs/samsam > lodash
+    - profile-hover > 3box > ipfs > libp2p-gossipsub > libp2p-floodsub > libp2p-pubsub > sinon > @sinonjs/samsam > lodash:
+        patched: '2023-11-29T01:24:04.428Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          profile-hover > 3box > ipfs > libp2p-gossipsub > libp2p-floodsub >
+          libp2p-pubsub > sinon > @sinonjs/samsam > lodash
+    - 3box-chatbox-react > 3box > orbit-db > orbit-db-counterstore > orbit-db-store > ipfs-log > orbit-db-identity-provider > orbit-db-keystore > libp2p-crypto-secp256k1 > async > lodash:
+        patched: '2023-11-29T01:24:04.428Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          3box-chatbox-react > 3box > orbit-db > orbit-db-counterstore >
+          orbit-db-store > ipfs-log > orbit-db-identity-provider >
+          orbit-db-keystore > libp2p-crypto-secp256k1 > async > lodash
+    - profile-hover > 3box > orbit-db > orbit-db-counterstore > orbit-db-store > ipfs-log > orbit-db-identity-provider > orbit-db-keystore > libp2p-crypto-secp256k1 > async > lodash:
+        patched: '2023-11-29T01:24:04.428Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          profile-hover > 3box > orbit-db > orbit-db-counterstore >
+          orbit-db-store > ipfs-log > orbit-db-identity-provider >
+          orbit-db-keystore > libp2p-crypto-secp256k1 > async > lodash
+    - 3box-chatbox-react > 3box > orbit-db > orbit-db-docstore > orbit-db-store > ipfs-log > orbit-db-identity-provider > orbit-db-keystore > libp2p-crypto-secp256k1 > async > lodash:
+        patched: '2023-11-29T01:24:04.428Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          3box-chatbox-react > 3box > orbit-db > orbit-db-docstore >
+          orbit-db-store > ipfs-log > orbit-db-identity-provider >
+          orbit-db-keystore > libp2p-crypto-secp256k1 > async > lodash
+    - profile-hover > 3box > orbit-db > orbit-db-docstore > orbit-db-store > ipfs-log > orbit-db-identity-provider > orbit-db-keystore > libp2p-crypto-secp256k1 > async > lodash:
+        patched: '2023-11-29T01:24:04.428Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          profile-hover > 3box > orbit-db > orbit-db-docstore > orbit-db-store >
+          ipfs-log > orbit-db-identity-provider > orbit-db-keystore >
+          libp2p-crypto-secp256k1 > async > lodash
+    - 3box-chatbox-react > 3box > orbit-db > orbit-db-eventstore > orbit-db-store > ipfs-log > orbit-db-identity-provider > orbit-db-keystore > libp2p-crypto-secp256k1 > async > lodash:
+        patched: '2023-11-29T01:24:04.428Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          3box-chatbox-react > 3box > orbit-db > orbit-db-eventstore >
+          orbit-db-store > ipfs-log > orbit-db-identity-provider >
+          orbit-db-keystore > libp2p-crypto-secp256k1 > async > lodash
+    - profile-hover > 3box > orbit-db > orbit-db-eventstore > orbit-db-store > ipfs-log > orbit-db-identity-provider > orbit-db-keystore > libp2p-crypto-secp256k1 > async > lodash:
+        patched: '2023-11-29T01:24:04.428Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          profile-hover > 3box > orbit-db > orbit-db-eventstore > orbit-db-store
+          > ipfs-log > orbit-db-identity-provider > orbit-db-keystore >
+          libp2p-crypto-secp256k1 > async > lodash
+    - 3box-chatbox-react > 3box > orbit-db > orbit-db-kvstore > orbit-db-store > ipfs-log > orbit-db-identity-provider > orbit-db-keystore > libp2p-crypto-secp256k1 > async > lodash:
+        patched: '2023-11-29T01:24:04.428Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          3box-chatbox-react > 3box > orbit-db > orbit-db-kvstore >
+          orbit-db-store > ipfs-log > orbit-db-identity-provider >
+          orbit-db-keystore > libp2p-crypto-secp256k1 > async > lodash
+    - profile-hover > 3box > orbit-db > orbit-db-kvstore > orbit-db-store > ipfs-log > orbit-db-identity-provider > orbit-db-keystore > libp2p-crypto-secp256k1 > async > lodash:
+        patched: '2023-11-29T01:24:04.428Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          profile-hover > 3box > orbit-db > orbit-db-kvstore > orbit-db-store >
+          ipfs-log > orbit-db-identity-provider > orbit-db-keystore >
+          libp2p-crypto-secp256k1 > async > lodash
+    - 3box-chatbox-react > 3box > orbit-db > orbit-db-feedstore > orbit-db-eventstore > orbit-db-store > ipfs-log > orbit-db-identity-provider > orbit-db-keystore > libp2p-crypto-secp256k1 > async > lodash:
+        patched: '2023-11-29T01:24:04.428Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          3box-chatbox-react > 3box > orbit-db > orbit-db-feedstore >
+          orbit-db-eventstore > orbit-db-store > ipfs-log >
+          orbit-db-identity-provider > orbit-db-keystore >
+          libp2p-crypto-secp256k1 > async > lodash
+    - profile-hover > 3box > orbit-db > orbit-db-feedstore > orbit-db-eventstore > orbit-db-store > ipfs-log > orbit-db-identity-provider > orbit-db-keystore > libp2p-crypto-secp256k1 > async > lodash:
+        patched: '2023-11-29T01:24:04.428Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          profile-hover > 3box > orbit-db > orbit-db-feedstore >
+          orbit-db-eventstore > orbit-db-store > ipfs-log >
+          orbit-db-identity-provider > orbit-db-keystore >
+          libp2p-crypto-secp256k1 > async > lodash
