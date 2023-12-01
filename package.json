@@ -4,13 +4,13 @@
   "description": "3box dapp",
   "private": true,
   "dependencies": {
-    "3box": "^1.17.1",
+    "3box": "^1.20.0",
     "3box-activity": "0.0.9",
     "3box-chatbox-react": "^0.1.9",
     "3id-resolver": "0.0.6",
     "@babel/polyfill": "^7.7.0",
     "@microlink/mql": "^0.5.10",
-    "@portis/web3": "^2.0.0-beta.54",
+    "@portis/web3": "^3.0.0",
     "@walletconnect/web3-provider": "^1.0.0-beta.47",
     "abi-decoder": "^2.0.1",
     "authereum": "0.0.4-beta.97",
@@ -31,7 +31,7 @@
     "level-js": "^5.0.1",
     "lodash.clonedeep": "^4.5.0",
     "lodash.debounce": "^4.0.8",
-    "node-sass": "^4.13.1",
+    "node-sass": "^7.0.2",
     "optimize-css-assets-webpack-plugin": "^5.0.3",
     "profile-hover": "^1.1.2",
     "prop-types": "^15.6.1",
@@ -57,7 +57,7 @@
     "web3": "^1.2.4",
     "web3-eth-personal": "^1.2.4",
     "web3connect": "^1.0.0-beta.32",
-    "webpack": "^4.41.2",
+    "webpack": "^5.1.1",
     "websocket": "^1.0.31"
   },
   "devDependencies": {
