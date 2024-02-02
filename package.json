@@ -4,16 +4,16 @@
   "description": "3box dapp",
   "private": true,
   "dependencies": {
-    "3box": "^1.17.1",
+    "3box": "^1.19.1",
     "3box-activity": "0.0.9",
-    "3box-chatbox-react": "^0.1.9",
-    "3id-resolver": "0.0.6",
+    "3box-chatbox-react": "^0.3.0",
+    "3id-resolver": "1.0.1",
     "@babel/polyfill": "^7.7.0",
     "@microlink/mql": "^0.5.10",
     "@portis/web3": "^2.0.0-beta.54",
-    "@walletconnect/web3-provider": "^1.0.0-beta.47",
+    "@walletconnect/web3-provider": "^1.8.0",
     "abi-decoder": "^2.0.1",
-    "authereum": "0.0.4-beta.97",
+    "authereum": "0.1.0",
     "core-js": "^3.4.8",
     "detect-browser": "^4.6.0",
     "did-resolver": "0.0.7",
@@ -27,7 +27,7 @@
     "fortmatic": "^1.1.3",
     "history": "^4.7.2",
     "idb-readable-stream": "0.0.4",
-    "ipfs-log": "^4.5.3",
+    "ipfs-log": "^6.0.0",
     "level-js": "^5.0.1",
     "lodash.clonedeep": "^4.5.0",
     "lodash.debounce": "^4.0.8",
@@ -54,11 +54,12 @@
     "scrypt-shim": "github:web3-js/scrypt-shim",
     "source-map-explorer": "^2.1.2",
     "squarelink": "^1.1.4",
-    "web3": "^1.2.4",
-    "web3-eth-personal": "^1.2.4",
+    "web3": "^4.0.1",
+    "web3-eth-personal": "^1.6.0",
     "web3connect": "^1.0.0-beta.32",
     "webpack": "^4.41.2",
-    "websocket": "^1.0.31"
+    "websocket": "^1.0.31",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "acorn-dynamic-import": "^3.0.0",
@@ -103,9 +104,12 @@
     "invalidate": "node_modules/.bin/aws-cloudfront-invalidate",
     "deploy-develop": "npm run deploy-to-s3 3box-dapp-develop.3box.io && npm run invalidate E17Q4403A4B4C8",
     "deploy-master": "npm run deploy-to-s3 3box-dapp-master.3box.io && npm run invalidate ET1S25F7JOQM6",
-    "deploy-test": "GENERATE_SOURCEMAP=false npm run deploy-to-s3 3box-dapp-test.3box.io && npm run invalidate E256JNRDZ1B3QM"
+    "deploy-test": "GENERATE_SOURCEMAP=false npm run deploy-to-s3 3box-dapp-test.3box.io && npm run invalidate E256JNRDZ1B3QM",
+    "prepare": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "browserslist": [
     "defaults"
-  ]
+  ],
+  "snyk": true
 }
