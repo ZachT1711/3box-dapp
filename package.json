@@ -19,7 +19,7 @@
     "did-resolver": "0.0.7",
     "emoji-js": "^3.4.1",
     "emoji-mart": "^2.9.1",
-    "eslint": "^6.0.0",
+    "eslint": "^9.0.0",
     "eth-contract-metadata": "^1.11.0",
     "ethereum-blockies-base64": "^1.0.2",
     "ethereumjs-util": "^6.0.0",
@@ -31,7 +31,7 @@
     "level-js": "^5.0.1",
     "lodash.clonedeep": "^4.5.0",
     "lodash.debounce": "^4.0.8",
-    "node-sass": "^4.13.1",
+    "node-sass": "^7.0.2",
     "optimize-css-assets-webpack-plugin": "^5.0.3",
     "profile-hover": "^1.1.2",
     "prop-types": "^15.6.1",
@@ -57,7 +57,7 @@
     "web3": "^1.2.4",
     "web3-eth-personal": "^1.2.4",
     "web3connect": "^1.0.0-beta.32",
-    "webpack": "^4.41.2",
+    "webpack": "^5.1.1",
     "websocket": "^1.0.31"
   },
   "devDependencies": {
