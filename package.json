@@ -46,7 +46,7 @@
     "react-linkify": "^1.0.0-alpha",
     "react-mailchimp-subscribe": "^2.0.2",
     "react-redux": "^7.0.1",
-    "react-router-dom": "^5.0.0",
+    "react-router-dom": "^7.5.2",
     "react-router-redux": "^4.0.8",
     "react-scroll": "^1.7.11",
     "redux": "^4.0.0",
